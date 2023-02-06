@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#nav-menu{
+    width:98vw;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    padding: 1%;
+    background-color: black;
+}
+
+h2{
+    color: white;
+}
