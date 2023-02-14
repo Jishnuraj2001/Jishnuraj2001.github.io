@@ -141,7 +141,7 @@ body {
   }
 
 
-#resume-button-1{
+#resume-button-2{
     display: inline-block;
     background: #90a0d9;
     color: #2a2f4c;
@@ -155,7 +155,7 @@ body {
     text-decoration: none;
 } 
 
-#resume-button-1:hover {
+#resume-button-2:hover {
     color: #90a0d9;
     background: none;
 }
