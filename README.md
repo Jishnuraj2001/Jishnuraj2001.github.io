@@ -47,6 +47,7 @@
   - Skills section : id="skills"
   - Projects section : id="projects"
   - Contact section : id="contact"
+  
 - The elements within the navbar linked to the above 4 sections should have the following.
   - Element linked to Home section : class="nav-link home"
   - Element linked to About section : class="nav-link about"
@@ -54,6 +55,7 @@
   - Element linked to Projects section : class="nav-link projects"
   - Element linked to Contact section : class="nav-link contact"
   - Element linked to Resume : class="nav-link resume"
+
 - The following must be present within elements with the respective IDs:
   - Name : id="user-detail-name"
   - Formal introduction : id="user-detail-intro"
