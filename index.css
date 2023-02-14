@@ -169,7 +169,7 @@ body {
 
 
 /*==========================skillsStart==============================*/
-#skills{
+#skillheader{
     width:100%;
     text-align: center;
     font-size: 40px;
@@ -177,7 +177,7 @@ body {
     padding: 20px 0px;
 }
 
-#skillss{
+#skills{
     width:90%;
     margin:auto;
     height:auto;
@@ -188,14 +188,14 @@ body {
     padding: 30px;
 }
 
-#skillss div{
+#skills div{
     border: 3px solid #90a0d9;
     padding: 25px;
     text-align: center;
     transition: transform .4s;
 }
 
-#skillss div:hover{
+#skills div:hover{
     -ms-transform: scale(1.3); 
     -webkit-transform: scale(1.3); 
     transform: scale(1.3); 
@@ -233,7 +233,7 @@ body {
         padding-top: 20px;
     }
 
-    #skillss{
+    #skills{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows:auto ;
     }
@@ -254,7 +254,7 @@ body {
         padding-top: 20px;
     }
 
-    #skillss{
+    #skills{
         grid-template-columns: repeat(3,1fr);
         grid-template-rows:auto ;
     }
@@ -275,7 +275,7 @@ body {
         padding-top: 20px;
     }
 
-    #skillss{
+    #skills{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows:auto ;
     }
@@ -300,7 +300,7 @@ body {
         padding-top: 20px;
     }
 
-    #skillss{
+    #skills{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows:auto ;
     }
