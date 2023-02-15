@@ -9,3 +9,12 @@ function showNextSentence(){
 }
 
 setInterval(showNextSentence, 1000);
+
+
+document.getElementById("resume-button-2").addEventListener("click",(event)=>{
+    window.location.href="./images/Jishnu_Raj_Resume.pdf";
+})
+
+document.getElementById("resume-button-1").addEventListener("click",(event)=>{
+    window.location.href="./images/Jishnu_Raj_Resume.pdf";
+})
