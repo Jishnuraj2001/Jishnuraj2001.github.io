@@ -7,14 +7,16 @@ function showNextSentence(){
     index=(index+1)%sentences.length;
     sentences[index].style.display = "inline-block";
 }
-
 setInterval(showNextSentence, 1000);
 
 
-document.getElementById("resume-button-2").addEventListener("click",(event)=>{
-    window.location.href="./images/Jishnu_Raj_Resume.pdf";
-})
 
-document.getElementById("resume-button-1").addEventListener("click",(event)=>{
-    window.location.href="./images/Jishnu_Raj_Resume.pdf";
-})
+document.getElementById('resume-link-1').addEventListener("click",()=>{
+    // console.log("OPENinig.....")
+    window.location.assign("https://drive.google.com/file/d/1c2IX4RaLn9V_UWALLhcVBCdPFKuII3Cn/view?usp=share_link", "_blank");
+  })
+  
+  document.getElementById('resume-link-2').addEventListener("click",()=>{
+    // console.log("OPENinig.....")
+    window.location.assign("https://drive.google.com/file/d/1c2IX4RaLn9V_UWALLhcVBCdPFKuII3Cn/view?usp=share_link", "_blank");
+  })
