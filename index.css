@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #18181b;
+    background-color:#18181b;
     color: brown;
 }
 
@@ -163,7 +163,7 @@ body {
 
 a{
     text-decoration: none;
-    color: #18181b;
+    color: #87efad;
 }
 
 
@@ -193,7 +193,7 @@ a{
     width:20%;
 }
 
- #user-detail-intro{
+ #user-detail-intro,.mee{
     width:60%;
     height: 100%;
     color: #87efad;
@@ -400,7 +400,43 @@ a{
 
 /*==========================contactStart==============================*/
 
+#contact{
+    margin-top: 30px;
+}
 
+#contact_inner{
+    width:90%;
+    margin:auto;
+    display: flex;
+    background-color:none;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+/* #contact_inner{
+    width: 90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: start;
+    gap: 30px;
+}
+
+#contact_inner div{
+    display: flex;
+    justify-content: center;
+} */
+
+
+
+#contact_inner i{
+    font-size: 30px;
+    color :#87efad;
+}
 
 /*==========================contactEnd==============================*/
 
@@ -559,7 +595,7 @@ a{
         padding-bottom: 20px;
        
     }
-     #user-detail-intro{
+     #user-detail-intro,.mee{
         width:80%;
     }
     
@@ -663,6 +699,8 @@ a{
         margin-bottom: 10px;
 
     }
+
+
 }
 
 
@@ -699,7 +737,7 @@ a{
         padding-bottom: 20px;
        
     }
-     #user-detail-intro{
+     #user-detail-intro,.mee{
         width:80%;
     }
   
@@ -803,6 +841,23 @@ a{
 
 
 
+    #contact_inner{
+        width:90%;
+        margin:auto;
+        display: flex;
+        background-color:none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #contact_inner div{
+        padding-bottom: 20px;
+    }
+
+
+
 }
 
 
@@ -838,7 +893,7 @@ a{
         padding-bottom: 20px;
        
     }
-     #user-detail-intro{
+     #user-detail-intro,.mee{
         width:80%;
     }
 
@@ -940,6 +995,21 @@ a{
         width:75%;
         margin-bottom: 10px;
 
+    }
+
+    #contact_inner{
+        width:90%;
+        margin:auto;
+        display: flex;
+        background-color:none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #contact_inner div{
+        padding-bottom: 20px;
     }
 
 
