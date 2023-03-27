@@ -6,26 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jishnu Raj</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="./dist/github-calendar.css">
     <link rel="stylesheet" href="./dist/github-calendar-responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 
 <body>
     <!----------------------- NAVBAR ---------------------------->
+
     <div id="nav-menu">
-        <h1 class="logo">Jishnu</h1>
-        <ul>
-            <li><a class="nav-link home" href="#home">Home</a></li>
-            <li><a class="nav-link about" href="#about">About</a></li>
-            <li><a class="nav-link skills" href="#skills">Skills</a></li>
-            <li><a class="nav-link projects" href="#projects">Projects</a></li>
-            <li><a class="nav-link contact" href="#contact">Contact</a></li>
-            <li id="resume-button-1"><a class="nav-link resume" id="resume-link-1"  href="./images/Jishnu_Raj_Resume.pdf" download="Jishnu_Raj_Resume">Resume</a></li>
-        </ul>
+        <nav>
+            <a href="#" class="logo" style="color:#18181b;">Jishnu</a>
+            <ul id="sidemenu">
+                <li><a class="nav-link home" href="#">Home</a></li>
+                <li><a class="nav-link about" href="#about">About</a></li>
+                <li><a class="nav-link skills" href="#skills">Skills</a></li>
+                <li><a class="nav-link projects" href="#projects">Projects</a></li>
+                <li><a class="nav-link contact" href="#contact">Contact</a></li>
+                <li id="resume-button-1"><a class="nav-link resume" id="resume-link-1" href="./images/Jishnu_Raj_Resume.pdf" download="Jishnu_Raj_Resume">Resume</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
     </div>
- 
+
+
 
     <!----------------------- HOME ----------------------------> 
     <div id="home">
@@ -40,7 +46,7 @@
         <div id="two">
             <img src="./images/green_profile_main.jpg" class="home-img" alt="profile picture">
         </div>
-    </div>
+    </div> 
 
 
     <!----------------------- ABOUT ---------------------------->
@@ -127,7 +133,7 @@
                 <div class="project-details">
                     <div class="project-title">Anthropologie Clone</div>
                     <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat asperiores, qui tempore repellendus voluptas sed tenetur. Ipsum veniam provident itaque officia, minus ducimus cum, blanditiis nostrum iure est praesentium!</div>
-                    <div class="project-tech-stack">tech stacks</div>
+                    <div class="project-tech-stack">Tech Stacks: HTML | CSS | JavaScript</div>
                     <a href="https://github.com/Jishnuraj2001/cared-middle-4484"><button class="project-github-link probtn">code</button></a>
                     <a href="https://superlative-scone-a04eb8.netlify.app/"><button class="project-deployed-link probtn">live</button></a>
                 </div>
@@ -139,7 +145,7 @@
                 <div class="project-details">
                     <div class="project-title">bewakoof Clone</div>
                     <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat asperiores, qui tempore repellendus voluptas sed tenetur. Ipsum veniam provident itaque officia, minus ducimus cum, blanditiis nostrum iure est praesentium!</div>
-                    <div class="project-tech-stack">tech stacks</div>
+                    <div class="project-tech-stack">Tech Stacks: HTML | CSS | JavaScript</div>
                     <a href="https://github.com/Gunjan1116/organic-decision-5994"><button class="project-github-link probtn">code</button></a>
                     <a href="https://friendly-croissant-0b451a.netlify.app/"><button class="project-deployed-link probtn">live</button></a>
                 </div>
@@ -151,7 +157,7 @@
                 <div class="project-details">
                     <div class="project-title">Meesho Clone</div>
                     <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat asperiores, qui tempore repellendus voluptas sed tenetur. Ipsum veniam provident itaque officia, minus ducimus cum, blanditiis nostrum iure est praesentium!</div>
-                    <div class="project-tech-stack">tech stacks</div>
+                    <div class="project-tech-stack">Tech Stacks: HTML | CSS | JavaScript | MongoDB | Node | Express</div>
                     <a href="https://github.com/Jishnuraj2001/selective-stem-7212"><button class="project-github-link probtn">code</button></a>
                     <a href="https://precious-shortbread-a87155.netlify.app/"><button class="project-deployed-link probtn">live</button></a>
                 </div>
@@ -161,7 +167,7 @@
                     <img src="./images/project/meesho_project4.png" alt="tesfaye image">
                 </div>
                 <div class="project-details">
-                    <div class="project-title">Meesho Clone Backend</div>
+                    <div class="project-title">Budget Tracking App</div>
                     <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat asperiores, qui tempore repellendus voluptas sed tenetur. Ipsum veniam provident itaque officia, minus ducimus cum, blanditiis nostrum iure est praesentium!</div>
                     <div class="project-tech-stack">tech stacks</div>
                     <a href="https://github.com/Jishnuraj2001/selective-stem-7212"><button class="project-github-link probtn">code</button></a>
@@ -232,6 +238,7 @@
 </body>
 
 </html>
+
 <script src="./index.js"></script>
 
 <script src="./dist/github-calendar.min.js"></script>
